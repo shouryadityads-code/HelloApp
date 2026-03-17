@@ -7,6 +7,8 @@ public class HelloApp {
 }
 */
 
+/*
+2.
 public class HelloApp {
     public static void main(String[] args) {
         if (args.length > 0) {
@@ -15,5 +17,14 @@ public class HelloApp {
         } else {
             System.out.println("Hello, World!");
         }
+    }
+}
+*/
+
+public class HelloApp {
+    public static void main(String[] args) {
+
+        String name = (args.length > 0) ? args[0] : "World";
+        System.out.println("Hello, " + name + "!");
     }
 }
